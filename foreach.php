@@ -6,6 +6,6 @@ $array = [
     2 => "Três"
 ];
 
-foreach ($array as $numeros){
-    echo $numeros . PHP_EOL;
+foreach ($array as $chave => $numeros){
+    echo $chave . " " . $numeros . PHP_EOL;
 }
