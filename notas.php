@@ -16,4 +16,8 @@ asorte (ordena sem mudar a chave)
 
 ksorte (ordena pela chave)
 
+rsorte (ordenar decrescente)
+
+krsorte (ordenar decrescente pelachave)
+
 */
