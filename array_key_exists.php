@@ -24,3 +24,7 @@ var_dump(isset($notas['Lorene']));
 // in_array (saber se existe determinado valor dentro do array)
 echo "Alguém tirou nota 10: ";
 var_dump(in_array(10, $notas));
+
+// array_search (Verifica se tem o valor e retorna a chave)
+echo "Quem tirou 7? ";
+var_dump(array_search(7, $notas));
