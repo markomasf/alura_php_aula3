@@ -13,8 +13,14 @@ $notas = [
 
 //var_dump($notas);
 
+// array_key_exists (verificar seachave existe)
 echo "O aluno fez a prova: ";
 var_dump(array_key_exists('Marco', $notas));
 
-// isset (Valida se o campo está com NULL)
+// isset (Valida se a chave existe e se o campo está com NULL)
+echo "A lorene fez prova: ";
 var_dump(isset($notas['Lorene']));
+
+// in_array (saber se existe determinado valor dentro do array)
+echo "Alguém tirou nota 10: ";
+var_dump(in_array(10, $notas));
